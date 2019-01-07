@@ -1,4 +1,5 @@
 import java.lang.*;
+import java.io.*;
 class first{
 	int c;
 	int d;
@@ -13,6 +14,7 @@ int b;
 public void m1(){System.out.println("hello welcome to java");}
 public static void main(String args[])
 {
+	FileInoutStream fis=new FileInputStream("E:/SOFTWARES/test.txt");
 Test t=new Test();
 t.m1();
 System.out.println("welcome to main method");
