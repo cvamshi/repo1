@@ -16,6 +16,7 @@ public static void main(String args[])
 {
 	FileInoutStream fis=new FileInputStream("E:/SOFTWARES/test.txt");
 Test t=new Test();
+f.readFile();
 t.m1();
 System.out.println("welcome to main method");
 }
